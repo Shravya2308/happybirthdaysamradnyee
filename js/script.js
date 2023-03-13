@@ -1,3 +1,6 @@
+alert("Welcome to Sam's spellictionary")
+alert('Sam the spells expert will introduce you to a new spell!!')
+
 let dib = document.getElementById('hello');
 let bday_sound = document.querySelector(".resize");
 bday_sound.addEventListener("click", ding);

@@ -40,14 +40,16 @@ font-family: 'Walter Turncoat', cursive;  text-decoration: none;
   
 }
 .resize{
-    width: 400px;
+    width: 200px;
     height: auto;
+    float:left;
 }
 .child{
     width:52%;
     font-size: 50px;
-    display: inline-block;
-    /* float: right; */
+    font-weight: bold;
+    /* display: inline-block; */
+    float: right;
 }
 
 .are{
@@ -61,6 +63,9 @@ text-align: center;
 .spells{
     display: inline-block;
 }
+.abe{
+    float:right;
+}
     </style>
 <body>
 
@@ -68,11 +73,11 @@ text-align: center;
     <img class="are" src="image-specs.png"/>  
 </div>
 <div class="btn">
-    <button class="button" onclick = 'soham()'class="generate">Click Me!</button>
+    <button class="button" onclick = 'soham()'class="generate">Spell me!</button>
 </div>
 <div class = 'spells'>
     <img class="resize" src="samradnyee.png"/>
-    <h6 class="child`">"says"</h6>
+    <!-- <h6 class="abe">"says"</h6> -->
     <div class = "child" id="hello"></div>
     
 </div>
