@@ -1,6 +1,7 @@
 let dib = document.getElementById('hello');
 let bday_sound = document.querySelector(".resize");
 bday_sound.addEventListener("click", ding);
+let bid = document.getElementById('last');
 
 function ding() {
     var sound = new  Audio("piano.mp3");  
@@ -21,5 +22,5 @@ function soham(){
     let a = spells();
     console.log(a);
     a.then(data => dib.innerHTML =data[hello].name)
-    
+    a.then(data => bid.innerHTML =data[hello].description)
 }
